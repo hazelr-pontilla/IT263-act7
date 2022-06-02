@@ -23,7 +23,6 @@
     <?php
         echo "First Name: " . $_SESSION["fname"] . "<br>";
         echo "Last Name: " . $_SESSION["lname"];
-    
     ?>
 </body>
 </html>
@@ -61,7 +60,7 @@
 
     -- will delete all the session data
     session_destroy();
-    
+
     if(isset($_SESSION['user']))
     {
         echo "Session 'user' still exist.";
